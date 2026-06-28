@@ -11,6 +11,7 @@ const About = () => {
 
     if (role === "student") navigate("/studentdashboard");
     else if (role === "club") navigate("/clubdashboard");
+      
     else if (role === "admin") navigate("/admindashboard");
     else navigate("/login");
   };
